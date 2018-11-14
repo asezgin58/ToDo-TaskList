@@ -1,0 +1,99 @@
+body {
+    background-image: linear-gradient(-90deg, darkblue, aqua);
+
+}
+.taskList{
+    background-color: white;
+    margin:5% auto;
+    text-align: center;
+    border:1px solid transparent;
+    width:20%;
+    padding:3%;
+    padding-top: 0;
+    border-radius: 15px 50px;
+    box-shadow: 3px 3px midnightblue;
+    font-family: Calibri;
+    font-weight: bold;
+
+}
+
+.taskList .header h3{
+    font-family: Calibri;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.taskList div{
+    margin-bottom: 5%;
+}
+
+.taskList .todo-list-form {
+    width:100%;
+    border:1px solid red;
+    border-radius: 5px;
+    background-image: linear-gradient(-90deg, darkred, orangered);
+}
+
+#TotalTaskList .check-item {
+    width: 60%;
+    float: left;
+}
+
+#TotalTaskList .check-item .submit-button{
+    width:40%;
+    float: left;
+}
+
+.taskList .done-list-form{
+    width:100%;
+    border:1px solid green;
+    border-radius: 5px;
+    background-image: linear-gradient(-90deg, darkgreen, greenyellow);
+}
+
+.taskList .form-group{
+    text-align: left;
+    padding: 2%;
+    margin:2%;
+
+}
+
+.addTask{
+    width:100%;
+    border:1px solid blue;
+    border-radius: 5px;
+
+}
+.addTask .form-group{
+    height: 20px;
+}
+.addTask .text{
+    width: 70%;
+    float: left;
+}
+.addTask .submit-button{
+    width: 20%;
+    float: right;
+
+}
+.submit-button input{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.clearfix{
+    overflow: auto;
+}
+
+
